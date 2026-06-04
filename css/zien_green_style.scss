@@ -2,6 +2,17 @@
 #winw{
     #headerwarp{
         background-color:white;
+        div:nth-child(1){
+            width:100%;
+            height:30px;
+            background-color:#501960;
+            text-align:center;
+            color:white;
+            line-height:20px;
+        }
+        .header_box{
+            border-bottom:display none;
+        }
         #headersub{
             .logo{
                 float:none;
@@ -25,4 +36,15 @@
         }
 
     }
+}
+
+.top_line{
+    background-color:#501960;
+    width:100%;
+    height:30px;
+    text-align:center;
+    color:white;
+    position:absolute;
+    top:0;
+    left:0;
 }
