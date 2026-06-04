@@ -7,11 +7,18 @@
                 float:none;
                
                 border-bottom:10px solid #000;
+                logoArea{
+                    img{
+                        width:100%;
+                        height:100%;
+                        object-fit:cover;
+                    }
+                }
             }
             .cssmenu{
                 float:none;
                 #gNavi{
-                    
+
 
                 }
             }
