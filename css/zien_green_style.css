@@ -7,7 +7,7 @@
 }
 #winw #headerwarp #headersub .logo logoArea img {
   width: 200px;
-  height: 70px;
+  max-height: 70px;
   -o-object-fit: cover;
      object-fit: cover;
 }
