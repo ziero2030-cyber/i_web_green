@@ -1,14 +1,6 @@
 #winw #headerwarp {
   background-color: white;
 }
-#winw #headerwarp div:nth-child(1) {
-  width: 100%;
-  height: 30px;
-  background-color: #501960;
-  text-align: center;
-  color: white;
-  line-height: 20px;
-}
 #winw #headerwarp .header_box {
   border-bottom: display none;
 }
@@ -35,6 +27,7 @@
   text-align: center;
   color: white;
   position: fixed;
+  z-index: 999;
   top: 0;
   left: 0;
 }
