@@ -2,6 +2,6 @@
   display: none;
 }
 
-.header > .navi :nth-child(2) a > .fa.fa-bars {
+.header > .navi :nth-child(2) a > .icon {
   display: none;
 }
