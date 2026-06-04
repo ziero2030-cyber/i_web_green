@@ -12,6 +12,9 @@
 #winw #headerwarp .header_box {
   border-bottom: display none;
 }
+#winw #headerwarp #headersub {
+  padding-top: 30px;
+}
 #winw #headerwarp #headersub .logo {
   float: none;
   border-bottom: 10px solid #000;
