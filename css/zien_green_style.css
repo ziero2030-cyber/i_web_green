@@ -1,3 +1,7 @@
 #header02 > ul .toplink {
   display: none;
 }
+
+header > .navi :nth-child(2) a {
+  color: red;
+}
