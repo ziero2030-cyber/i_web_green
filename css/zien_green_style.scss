@@ -55,4 +55,10 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  .top-aside-sns-btn {
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
 }
