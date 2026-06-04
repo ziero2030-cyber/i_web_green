@@ -2,6 +2,6 @@
   display: none;
 }
 
-header > .navi :nth-child(2) a {
-  color: red;
+.header > .navi :nth-child(2) a {
+  background-color: red;
 }
