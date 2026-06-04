@@ -1,6 +1,8 @@
+#winw #headerwarp {
+  background-color: white;
+}
 #winw #headerwarp #headersub .logo {
   float: none;
-  background-color: white;
   border-bottom: 10px solid #000;
 }
 #winw #headerwarp #headersub .cssmenu {
