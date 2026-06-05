@@ -47,9 +47,14 @@
   width: 30px;
   height: 30px;
 }
+.both_sns .user-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+}
 .both_sns .user-btn-wrapper .user-btns {
   display: flex;
-  align-items: center;
+  align-items: space-between;
   font-size: 14px;
 }
 .both_sns .user-btn-wrapper .user-btns > div {
