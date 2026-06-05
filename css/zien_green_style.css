@@ -68,3 +68,13 @@
 .both_sns .user-btn-wrapper a i {
   font-size: 25px;
 }
+.both_sns .user-btn-wrapper .smslog-wrapper {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+.both_sns .user-btn-wrapper search-wrapper {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
