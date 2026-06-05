@@ -49,18 +49,22 @@
 }
 .both_sns .user-btn-wrapper {
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
+  justify-content: flex-end;
+  padding: 5px 0;
 }
-.both_sns .user-btn-wrapper .user-btn {
-  width: 420x;
-  height: 36px;
-  background-color: #fff;
+.both_sns .user-btn-wrapper .user-btns {
   display: flex;
   align-items: center;
-  cursor: pointer;
+  font-size: 14px;
 }
-.both_sns .user-btn-wrapper .user-btn img {
-  width: 30px;
-  height: 30px;
+.both_sns .user-btn-wrapper .user-btns > div {
+  padding: 0 15px;
+}
+.both_sns .user-btn-wrapper .basket-wrapper {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+.both_sns .user-btn-wrapper .basket-wrapper i {
+  font-size: 25px;
 }

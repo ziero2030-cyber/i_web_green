@@ -55,29 +55,41 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+
   .top-aside-sns-btn {
     img {
       width: 30px;
       height: 30px;
     }
   }
-  .user-btn-wrapper{
-    display:flex;
-    justify-content:space-between;
-    gap:10px;
-    .user-btn{  
-      width: 420x;
-      height: 36px;
   
-      background-color: #fff;
+  .user-btn-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding:5px 0;
+     .user-btns {
       display: flex;
       align-items: center;
-    
-      cursor: pointer;
-      img {
-        width: 30px;
-        height: 30px;
+      font-size: 14px;
+      
+        >div{
+            padding: 0 15px;
+        }     
+   
       }
-    }
+       .basket-wrapper{
+        margin-right:15px;
+        display:flex;
+        align-items:center;
+         i{
+            font-size:25px;
+            }
+        }
+
   }
 }
+
+    
+
+
+
