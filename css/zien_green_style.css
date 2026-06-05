@@ -49,6 +49,7 @@
 }
 .both_sns .user-btn-wrapper {
   display: flex;
+  justify-content: center;
   gap: 10px;
 }
 .both_sns .user-btn-wrapper .user-btn {
