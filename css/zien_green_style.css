@@ -65,6 +65,6 @@
   display: flex;
   align-items: center;
 }
-.both_sns .user-btn-wrapper .basket-wrapper i {
+.both_sns .user-btn-wrapper a i {
   font-size: 25px;
 }
