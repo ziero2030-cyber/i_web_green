@@ -1,0 +1,73 @@
+# ====================================================================
+# [🚨 IMPORTANT] Copyright Protection - Image & Media Files Exclusion
+# 해외 브랜드 가구 쇼핑몰 이미지 저작권 보호를 위한 미디어 파일 전체 제외
+# ====================================================================
+# 프로젝트 내부로 다운로드된 모든 이미지 및 리소스 파일 제외
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.bmp
+*.tiff
+*.ico
+
+# 미디어 및 비디오 파일 제외 (가구 소개 영상 등)
+*.mp4
+*.webm
+*.mov
+*.avi
+
+# 다운로드 및 백업 폴더 통째로 제외 (실수로 이미지를 받은 경우 대비)
+images/
+image/
+img/
+imgs/
+assets/images/
+assets/img/
+media/
+downloads/
+download/
+backup/
+backups/
+
+# ====================================================================
+# OS & IDE Generation Files (작업 환경 및 운영체제 임시 파일)
+# ====================================================================
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon_
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# IDEs and Text Editors (VS Code, Sublime, Notepad++ 등)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.bak
+
+# ====================================================================
+# i-web Platform & Customizing Backup Files (기타 추출 소스 및 백업)
+# ====================================================================
+# i-web에서 별도로 백업받은 압축 파일류 제외
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 혹시 모를 로컬 가상 환경 및 의존성 파일 제외
+node_modules/
+.npm/
